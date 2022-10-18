@@ -9,5 +9,6 @@
 int main(void)
 {
 	char s[] = "_putchar\n";
+
 	return (0);
 }
