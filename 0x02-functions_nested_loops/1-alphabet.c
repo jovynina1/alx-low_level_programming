@@ -6,13 +6,18 @@
 * Return: return void
 */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char ch;
+	int l = 'a';
 
-	for (ch = a; ch <= z; ch++)
-		_putchar(ch);
-	putchar('\n')
+	while (l <= 'z')
+
+	{
+		_putchar[1];
+		l++;
+
+	}
+	_putchar('\n');
 }
 		
 		
