@@ -1,25 +1,29 @@
 #include "main.h"
 
 /**
- * print_square - prints a square of size size
- * @size: size of square
-* Return: void
+ * more_numbers - prints 01234567891011121314\n x10
+ * Return: void
 */
 
-void print_square(int size)
-
+void more_numbers(void)
 {
-	int a, b;
+	char a, b, c, i;
 
-	if (size <= 0)
-		_putchar('\n');
-	for (a = 0; a < size; a++)
+	for (i = 0; i < 10; i++)
 	{
-
-		for (b = 0; b < (size); b++)
+		for (c = 0; c <= 14; c++)
 		{
-			_putchar('#');
+			if (c < 10)
+				b = c;
+			else
+			{
+				a = c / 10; b = c % 10;
+				_putchar('0' + a);
+			}
+			_putchar('0' + b);
 		}
 		_putchar('\n');
 	}
 }
+	
+
