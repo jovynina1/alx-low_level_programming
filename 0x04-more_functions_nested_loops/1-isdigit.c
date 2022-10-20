@@ -2,15 +2,20 @@
 
 /**
  * _isdigit - checks for characters that are digits
- * @c: character to check
+ * @c: int to be checked
  * Return: 0 or 1
  */
 
 int _isdigit(int c)
 
 {
+	int y = 0;
+	{
+
 	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
+		y = 1;
+	}
+
+	return (y);
 }
+
