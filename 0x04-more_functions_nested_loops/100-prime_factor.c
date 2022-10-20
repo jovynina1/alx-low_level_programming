@@ -21,7 +21,7 @@ int main(void)
 		{
 			n = n / f;
 			if (f > lf)
-					if = f;
+					if (lf = f);
 
 		}
 		else
