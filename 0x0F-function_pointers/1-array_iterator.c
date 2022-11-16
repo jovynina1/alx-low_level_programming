@@ -1,5 +1,5 @@
 #include <stddef.h>
-#include "main.h"
+#include "function_pointers.h"
 
 /**
  * array_iterator - Execute a function as a paramter on each element in array
